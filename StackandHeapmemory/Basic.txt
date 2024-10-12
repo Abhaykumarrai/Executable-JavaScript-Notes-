@@ -1,0 +1,9 @@
+static memory is used by primitive data type and in stack if we take the reference we get the copy of the variable not original value
+
+let x=3
+console.log(x)
+let x=y
+y=7
+console.log(y)
+
+Heap memory is used by non-preimitive data type in heap we get refrence to original value

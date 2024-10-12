@@ -1,0 +1,10 @@
+Primitive data type:-
+aslso known as call by value
+string,number,bigint,null,undefined,boolean,symbol
+
+
+Non Primitive data type:-
+also called call by refrence
+object,function,array
+
+this diffrentiation is based on the way how they keep data in mrmory and assess those data
