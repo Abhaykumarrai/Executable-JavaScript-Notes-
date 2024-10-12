@@ -8,9 +8,9 @@ let cid
 let man = null
 let y = BigInt('5777777777777777778378348358738')
 
-console.log(typeof"user")
+console.log(typeof (user))
 console.log(typeof x)
-console.log(typeof  Boolean)
+console.log(typeof  (Boolean))
 console.log(typeof cid)
 console.log(typeof man)
 console.log(typeof y)
