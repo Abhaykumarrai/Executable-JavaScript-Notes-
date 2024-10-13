@@ -14,7 +14,7 @@ console.log(text.search("occurs"))
 
 // String match()
 // String matchAll()
-// String includes()
+// String includes() 
 // String startsWith()
 // String endsWith()
 

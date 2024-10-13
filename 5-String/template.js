@@ -19,7 +19,7 @@ console.log(`my customers are ${com1} and ${com2}`);
 
 
 // Template Strings allow expressions in strings
-let price= 200
+let price= 200 
 let gst=100
 console.log(`your final price is = ${(price-gst)*1/10}`);
 

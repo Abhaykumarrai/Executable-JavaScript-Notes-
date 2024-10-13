@@ -12,7 +12,7 @@ console.log(val.length)
 console.log(val.charAt(3))
 
 // *********************************************************************************************************************************************************
-
+ 
 // String charCodeAt() => The method returns a unique UTF-16 code (an integer between 0 and 65535).
 console.log(val.charCodeAt(5))
 
