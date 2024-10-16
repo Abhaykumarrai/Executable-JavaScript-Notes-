@@ -5,7 +5,7 @@ JavaScript is a programming language that implements the ECMAScript specificatio
 Original Documentation Of JavaScript => tc39(ECMAscript)
 Documentation which we use => MDM
 
-Always maintain code readability and it shoul be high
+Always maintain code readability and it should be high
 for that we can use pritter extention in vs code.
 
 

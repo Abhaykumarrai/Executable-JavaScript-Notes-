@@ -1,6 +1,6 @@
 //In real life, objects are things like: houses, cars, people, animals, or any other subjects.
 //Properties are the features of the object, for example if car is a object then his color,size,model are the properties.
-//Methods are the function of the object such as in case of car the method id car.start(),car.stop.
+//Methods are the function of the object such as in case of car the method car.start(),car.stop.
 
 
 
@@ -20,10 +20,13 @@ const user={
 }
 
 console.log(user.name)                //most of the time we use this one 
-console.log(user["name"])
+console.log(user["name"])             //we can access key value by closed brackets
 
 user.name="aman";                     // To change the value of key
 console.log(user.name)
+
+user.number = 9139839                 //we can also add new property in existing object
+console.log(user)
 
 Object.freeze(user)                   //We can freeze the object to prevent value change
 user.name="anmol"
