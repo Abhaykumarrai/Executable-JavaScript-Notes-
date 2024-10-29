@@ -18,7 +18,7 @@ console.log(deletedFruit)
 console.log(fruits3)
 
 
-//To delete item from start we use shif method 
+//To delete item from start we use shift method 
 let fruits4 = ["mango","banana","apple"]  
 let startDelete = fruits4.shift();
 console.log(startDelete);

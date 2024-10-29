@@ -96,13 +96,13 @@
 
 // ************************************************for loop****************************************************************************
 
-// let total = 0;
+let total = 0;
 
-// for(let i=1;i<=10;i++){
-//     total=total+i;
-// }
-// //console.log(i)       //variable declared inside for loop cannot be accessed from outside but declared by var can be accessed
-// console.log(total)
+for(let i=1;i<=10;i++){
+    total=total+i;
+}
+//console.log(i)       //variable declared inside for loop cannot be accessed from outside but declared by var can be accessed
+console.log(total)
 
 
 //************************************************Break & Continue************************************************************************* 
@@ -127,10 +127,10 @@
 
 // ***************************************************************Do while loop************************************************************************
 
-let u=10;
-do{
-    console.log(u)               //in do while loop the programm get executed once and then check the statment
-    u++                          //output will be 10,it will not give an error
-}while(u<=9)
+// let u=10;
+// do{
+//     console.log(u)               //in do while loop the programm get executed once and then check the statment
+//     u++                          //output will be 10,it will not give an error
+// }while(u<=9)
 
-console.log(u)                   //after execution it get 11 and then check with while consdition 
+// console.log(u)                   //after execution it get 11 and then check with while consdition 

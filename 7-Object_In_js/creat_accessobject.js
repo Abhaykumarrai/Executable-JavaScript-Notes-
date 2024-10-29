@@ -11,6 +11,7 @@
 //- In JavaScript, the object literal method is one of the most straightforward ways to create objects. It allows you to define an object by directly listing its properties and their values within curly braces ({}). This method is simple and concise.
 //An object literal is a list of name:value pairs inside curly braces {}.
 //name:value pairs are also called key:value pairs.
+// In JavaScript, an object is a standalone entity, with properties and type. 
 //object literals are also called object initializers.
 
 const user={
@@ -102,6 +103,7 @@ console.log(testmethod.addname())
 
 
 //********************HOW TO MEARGE TOW OBJECTS************************************************************************************* 
+// we can add two objects in javascript by two ways first is with the help of spread operator and other is with the help of assign method
 
 const add1 = {1:"a",2:"b"}
 const add2 = {3:"a",4:"b"}
@@ -136,6 +138,8 @@ console.log(cid.hasOwnProperty("cnme"))   //this will return the value in boolea
 //*********************************************************Object De-structure*******************************************************************************
 //if we want to access any property multiple time, so every time we have to access like this object.property,
 //But with object destructure we can directly access the property 
+
+// Object destructuring in JavaScript is a syntax that allows you to extract specific properties from an object and assign them to variables. This syntax makes it easier to work with objects and access or assign variables from them in a clean, readable way.
 
 const test = {
     name:"abhay",

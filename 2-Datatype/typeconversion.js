@@ -45,7 +45,7 @@ console.log(exChange)
 
 
 
-// Number to Boolean
+// Important Boolean
 let num = 'abcd'
 console.log(typeof num)
 // converting number into boolean 
@@ -59,4 +59,6 @@ console.log(numChange)
    0 -   false
    ""-   false
    "abcd"- true
+   null-false
+   undefined- false
 */

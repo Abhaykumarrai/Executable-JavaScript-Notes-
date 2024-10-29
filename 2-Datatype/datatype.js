@@ -1,4 +1,4 @@
-"use strict" // this tells that now all ja version will be treated as newer version
+"use strict" // this tells that now all js version will be treated as newer version
  
 // alert (4+1);  => this will not execute because we are using node.js not browser and alert is a browser feature
 

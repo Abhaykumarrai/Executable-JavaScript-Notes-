@@ -8,7 +8,7 @@ console.log(val.length)
 
 // *********************************************************************************************************************************************************
 
-// String charAt() - gives the number at the specific index
+// String charAt() - gives a character at specified index,if index is out of bond returns empty string and only deals with positive indices.
 console.log(val.charAt(3))
 
 // *********************************************************************************************************************************************************
@@ -18,7 +18,7 @@ console.log(val.charCodeAt(5))
 
 // *********************************************************************************************************************************************************
 
-// String at() -The at() method returns the character at a specified index (position) in a string.// ?It allows the use of negative indexes while charAt() do not.
+// String at() - it gives the char at specified index,returns undefined if the index is out of bond , and suppor negative indexig
 console.log(val.at(0))
 
 // *********************************************************************************************************************************************************
@@ -31,18 +31,19 @@ console.log(val[0])
 // String slice() - the slice method in js is used to cut ot extract a section of string and return a new string without modifying the actual value
 // This method is very flexible and can be used to work with both strings and arrays
 // Syntax --> .slice(start, end)
+// supports neagative indeces
 // ?start: The index at which to begin extraction. The first element is at index 0. If negative, the index is counted from the end of the string/array.
 // ?end (optional): The index at which to stop extraction (up to, but not including, this index)
 let sli="Hello World"
 console.log(sli.slice(0,8))
 
-// String substring() - Extracts characters from both side of the string from start and end.
-let sli1="Hello World"
-console.log(sli1.substring(3,3))
-// String substr()- Extracts a substring starting from an index and for a specified number of characters.
-// Syntax - .substr(stert,length)
+// The substring(start, end) method also extracts a section of a string from start up to (but not including) end.
+// If end is omitted, substring() extracts from the start index to the end of the string.
+// Does not support negative indices; negative values are treated as 0.
+// Automatically swaps start and end if start is greater than end.
+console.log(str.substring(7, 0));    // "Hello, " (swaps start and end if start > end)
 let sli3="Hello World"
-console.log(sli3.substr(2,6))
+console.log(sli3.substring(2,6))
 
 
 // *********************************************************************************************************************************************************
