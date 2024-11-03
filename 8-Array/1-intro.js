@@ -7,6 +7,8 @@
 let fruits = ["mango","banana","apple"]               //stored in form of index starting from 0
 console.log(fruits)
 
+// we can create array by const ---> this method of creating array is mostly recomended because in this way we can privent from array redeclaration
+
 //To access the perticular value of an array
 console.log(fruits[2]);
 
