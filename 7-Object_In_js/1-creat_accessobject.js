@@ -17,11 +17,13 @@
 const user={
     name : "Abhay",                   //key is here name and value is Abhay,behind the seen js refer key as string
     Age : 22,
-    Add : "unit e"
+    Add : "unit e",
+    "Marital status" : "sigle",        //we use bracket notation in this condition
+    itms:["a1","a2","a3","a4"]
 }
 
-console.log(user.name)                //most of the time we use this one 
-console.log(user["name"])             //we can access key value by closed brackets
+console.log(user.name)                //most of the time we use dot notation to access the key 
+console.log(user["name"])             //we can access key value by bracket notation as well and inside we pass key as string because by defaluly js consider key as string inside object
 
 user.name="aman";                     // To change the value of key
 console.log(user.name)
@@ -32,10 +34,17 @@ console.log(user)
 Object.freeze(user)                   //We can freeze the object to prevent value change
 user.name="anmol"
 
+// suppose you have a variable var1 and inside that variable you have a value email than how you wil use that value and make a key and assign a value to the key as abhaykumarrai666@gmail.com
 
+let var1="email"
+const obj1={
+    name:"abhay",
+    age:"22"
+}
+obj1[var1]="abhaykumarrai666@gmail.com"
+console.log(obj1)
 
-
-//****************************************IMPORTANT***************************************************************************************** 
+//***********************************IMPORTANT***************************************************************************************** 
 console.log(Object.values(user))  // it will give the value of user object in array datatype
 console.log(Object.keys(user))
 console.log(Object.entries(user))
